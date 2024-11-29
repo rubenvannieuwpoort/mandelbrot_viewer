@@ -109,7 +109,7 @@ int main() {
 								quit = true;
 								break;
 							}
-							else if (event.key.keysym.sym = 'f') {
+							else if (event.key.keysym.sym == 'f') {
 								fullscreen = !fullscreen;
 								if (fullscreen)
 									SDL_SetWindowFullscreen(window, SDL_WINDOW_FULLSCREEN_DESKTOP);
